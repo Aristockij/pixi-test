@@ -1,0 +1,20 @@
+{
+  "name": "pixi-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "parcel src/index.html --port 3000 --open chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "pixi-filters": "^6.0.0",
+    "pixi.js": "^8.0.0"
+  }
+}
